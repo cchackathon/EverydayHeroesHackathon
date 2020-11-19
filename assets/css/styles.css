@@ -1,0 +1,135 @@
+.slanted {
+  height: 100%;
+  width: 100%;
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);*/
+  /*clip-path: polygon(0 100%, 100% 84%, 100% 0, 0 0);*/
+}
+
+#banner {
+  z-index: 0;
+}
+
+#tex-box {
+  z-index: 1;
+}
+
+#hero {
+  position: absolute;
+  top: 52%;
+  left: 25%;
+  transform: matrix(0.99, -0.12, 0.12, 0.99, 0, 0);
+}
+
+@media (min-width: 300px) {
+  .h1, h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .h1, h1 {
+    font-size: 3.5em;
+  }
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+  display: inline-flex;
+}
+
+.tab-content {
+  font-family: 'Roboto';
+  border-width: 10px;
+  border-style: solid;
+  padding: 2%;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  /*color: #495057;*/
+  /*background-color: #fff;*/
+  /*border-color: #dee2e6 #dee2e6 #fff;*/
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #ffffff;
+}
+
+.h2, h2 {
+  font-size: 3em;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  margin-top: 2.5%;
+}
+
+.nav-item {
+  font-family: 'Back Issues BB';
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+p {
+  font-family: 'Roboto';
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0,0,0);
+}
+
+@media (min-width: 1200px) {
+  #leftfaq {
+    transform: skewX(5deg);
+    background: #b5c732;
+    border-width: 5px;
+    border-style: solid;
+  }
+}
+
+@media (min-width: 300px) {
+  #leftfaq {
+    /*transform: skewX(5deg);*/
+    background: #b5c732;
+    border-width: 5px;
+    border-style: solid;
+  }
+}
+
+@media (min-width: 300px) {
+  # {
+    background: #b5c732;
+    border-width: 5px;
+    border-style: solid;
+  }
+}
+
+@media (min-width: 300px) {
+  #rightfaq {
+    margin-top: 9px;
+    background: #ffc300;
+    border-width: 5px;
+    border-style: solid;
+  }
+}
+
+@media (min-width: 1200px) {
+  #rightfaq {
+    margin-top: 0px;
+    margin-left: 9px;
+    transform: skewX(5deg);
+    background: #ffc300;
+    border-width: 5px;
+    border-style: solid;
+  }
+}
+
+@media (min-width: 1200px) {
+  #faqinside {
+    transform: skewX(-5deg);
+  }
+}
+
